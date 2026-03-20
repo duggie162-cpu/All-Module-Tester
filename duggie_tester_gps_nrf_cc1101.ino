@@ -104,8 +104,8 @@ RF24 radio(NRF_CE, NRF_CS);
 #define SPI_MOSI 23
 
 // -------------------- GPS --------------------
-#define GPS_RX_PIN 13
-#define GPS_TX_PIN 27
+#define GPS_RX_PIN 27
+#define GPS_TX_PIN 13
 #define GPS_BAUD 9600
 
 HardwareSerial gpsSerial(2);
